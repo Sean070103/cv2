@@ -105,19 +105,9 @@ export default function Portfolio() {
 
   const projects = [
     {
-      title: "Website Portfolio",
-      url: "https://gelssante.vercel.app/",
-      description: "Personal portfolio showcasing my work and skills",
-    },
-    {
       title: "Lifeline-angel",
       url: "https://lifeline-angel.vercel.app/",
       description: "Healthcare platform with dataset contributions and QA testing",
-    },
-    {
-      title: "Juntos",
-      description: "Social media app built with React Native and MongoDB (Ongoing)",
-      tech: "React Native, MongoDB",
     },
     {
       title: "Employee Information System",
