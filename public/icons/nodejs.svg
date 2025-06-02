@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="128px" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <rect width="128" height="128" rx="32" fill="#222"/>
+    <path d="M64 24l36 20.8v38.4L64 104 28 83.2V44.8L64 24zm0 8.8L36.8 44.8v38.4L64 95.2l27.2-12V44.8L64 32.8z" fill="#339933"/>
+    <text x="64" y="90" font-family="Arial" font-size="32" fill="#fff" text-anchor="middle">JS</text>
+  </g>
+</svg> 

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="128px" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <rect width="128" height="128" rx="32" fill="#3178C6"/>
+    <text x="64" y="80" font-family="Arial" font-size="48" fill="#fff" text-anchor="middle">TS</text>
+  </g>
+</svg> 
