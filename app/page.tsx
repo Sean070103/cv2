@@ -738,13 +738,13 @@ export default function Portfolio() {
               <Github size={28} />
             </a>
             <a
-              href="https://www.linkedin.com/in/angelo-yocor-0885aa254/"
+              href="https://www.linkedin.com/in/angelo-yocor-0885aa254"
               className="text-gray-600 hover:text-pink-500 transition-colors transform hover:scale-110"
             >
               <Linkedin size={28} />
             </a>
             <a
-              href="https://www.instagram.com/angeloinyourheart/"
+              href="https://www.instagram.com/angeloinyourheart"
               className="text-gray-600 hover:text-pink-500 transition-colors transform hover:scale-110"
             >
               <Instagram size={28} />
