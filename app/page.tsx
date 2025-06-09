@@ -142,7 +142,7 @@ export default function Portfolio() {
     },
     {
       title: "InkersMNL",
-      url: "https://inkersmnl.vercel.app/",
+      url: "https://inkersmnl.vercel.app",
       description: "A Landing page for start-up",
       tech: "Next.js",
     },
