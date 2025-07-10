@@ -13,9 +13,9 @@ import {
   Github,
   GraduationCap,
   Heart,
+  Instagram,
   Linkedin,
   Mail,
-  Instagram,
   MapPin,
   Phone,
   Star,
@@ -113,6 +113,13 @@ export default function Portfolio() {
       url: "https://lifeline-angel.vercel.app/",
       description:
         "Healthcare platform with dataset contributions and QA testing",
+    },
+    {
+      title: "Invoice Web Application",
+      url: "https://invoicingap.vercel.app/",
+      description:
+        "Create, manage, and track invoices and clients with this full-stack app—featuring responsive UI, PDF exports, and seamless CRUD operations.",
+      tech: "Next.js, MongoDB, Prisma",
     },
     {
       title: "Juntos",
