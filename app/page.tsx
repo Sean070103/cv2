@@ -148,9 +148,10 @@ export default function Portfolio() {
       tech: "Flask, MySQL",
     },
     {
-      title: "InkersMNL",
-      url: "https://inkersmnl.vercel.app",
-      description: "A Landing page for start-up",
+      title: "Console Portfolio",
+      url: "https://sudoycrangelo.vercel.app/",
+      description:
+        "My second portfolio is inspired by a command-line console interface",
       tech: "Next.js",
     },
     {
@@ -306,7 +307,7 @@ export default function Portfolio() {
           >
             <div className="w-56 h-56 mx-auto bg-gradient-to-br from-pink-200 to-purple-200 rounded-full flex items-center justify-center shadow-2xl transform hover:scale-105 transition-transform duration-500 overflow-hidden">
               <Image
-                src="/yocor.png"
+                src="/picpic.jpg"
                 alt="Angelo Yocor"
                 width={224}
                 height={226}
@@ -362,8 +363,8 @@ export default function Portfolio() {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-2xl md:text-3xl text-pink-600 mb-8 font-medium"
           >
-            Graduating Computer Science Student | Aspiring Software Developer |
-            Passionate About Web & Mobile Apps
+            Computer Science Graduate | Software Developer | Passionate About
+            Web & Mobile Apps
           </motion.p>
 
           <motion.div
@@ -385,13 +386,17 @@ export default function Portfolio() {
               <span>yocorangelo13@gmail.com</span>
             </div>
           </motion.div>
-
           <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
             <Button
-              onClick={() => scrollToSection("about")}
+              onClick={() =>
+                window.open(
+                  "https://drive.google.com/file/d/1mZtjax_-OXpXH7xUMMYQ7WSrybYuqF2i/view",
+                  "_blank"
+                )
+              }
               className="bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600 text-white px-10 py-4 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300"
             >
-              Get to know me
+              View my CV
               <ChevronDown className="ml-2" size={20} />
             </Button>
           </motion.div>
@@ -422,10 +427,8 @@ export default function Portfolio() {
               <Card className="bg-white/80 backdrop-blur-lg border-pink-100/50 shadow-2xl rounded-3xl transform hover:scale-[1.02] transition-all duration-500">
                 <CardContent className="p-12">
                   <p className="text-xl text-gray-700 leading-relaxed">
-                    Computer Science student skilled in web, mobile, and
-                    software development. Passionate about building user-focused
-                    solutions with modern tech. Open-source contributor and tech
-                    enthusiast.
+                    To apply my skills in software development and contribute to
+                    impactful tech projects
                   </p>
                 </CardContent>
               </Card>
