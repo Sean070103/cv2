@@ -147,13 +147,13 @@ export default function Portfolio() {
         "inventory and purchase order system to track stock and manage orders.",
       tech: "Flask, MySQL",
     },
-    {
-      title: "Console Portfolio",
-      url: "https://sudoycrangelo.vercel.app/",
-      description:
-        "My second portfolio is inspired by a command-line console interface",
-      tech: "Next.js",
-    },
+    // {
+    //   title: "Console Portfolio",
+    //   url: "https://sudoycrangelo.vercel.app/",
+    //   description:
+    //     "My second portfolio is inspired by a command-line console interface",
+    //   tech: "Next.js",
+    // },
     {
       title: "VeriSure",
       url: "https://veri-sure.vercel.app/",
