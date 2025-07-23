@@ -114,13 +114,13 @@ export default function Portfolio() {
       description:
         "Healthcare platform with dataset contributions and QA testing",
     },
-    {
-      title: "Invoice Web Application",
-      url: "https://invoicingap.vercel.app/",
-      description:
-        "Create, manage, and track invoices and clients with this full-stack app—featuring responsive UI, PDF exports, and seamless CRUD operations.",
-      tech: "Next.js, MongoDB, Prisma",
-    },
+    // {
+    //   title: "Invoice Web Application",
+    //   url: "https://invoicingap.vercel.app/",
+    //   description:
+    //     "Create, manage, and track invoices and clients with this full-stack app—featuring responsive UI, PDF exports, and seamless CRUD operations.",
+    //   tech: "Next.js, MongoDB, Prisma",
+    // },
     {
       title: "Juntos",
       url: "https://expo.dev/accounts/angeloyocoryocor/projects/Juntos/builds/44318ac0-805b-4ff2-b30a-21e172ec1074",
