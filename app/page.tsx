@@ -374,8 +374,8 @@ export default function Portfolio() {
             className="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-8 text-gray-600 mb-12"
           >
             <div className="flex items-center space-x-3 bg-white/50 backdrop-blur-sm px-6 py-3 rounded-full shadow-lg">
-              <MapPin className="text-pink-500" size={20} />
-              <span>Cabuyao, Laguna, Philippines</span>
+              <Github className="text-pink-500" size={20} />
+              <span>ycrangelo</span>
             </div>
             <div className="flex items-center space-x-3 bg-white/50 backdrop-blur-sm px-6 py-3 rounded-full shadow-lg">
               <Phone className="text-pink-500" size={20} />
@@ -390,7 +390,7 @@ export default function Portfolio() {
             <Button
               onClick={() =>
                 window.open(
-                  "https://drive.google.com/file/d/1mZtjax_-OXpXH7xUMMYQ7WSrybYuqF2i/view",
+                  "https://drive.google.com/file/d/13tLcHDOlNeeBtigBncNuEF-9_uZk7fFd/view?usp=sharing",
                   "_blank"
                 )
               }
