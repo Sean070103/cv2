@@ -16,7 +16,6 @@ import {
   Instagram,
   Linkedin,
   Mail,
-  MapPin,
   Phone,
   Star,
   Users,
@@ -43,6 +42,8 @@ const techIcons = {
   PHP: "/icons/php.svg",
   MySQL: "/icons/mysql.svg",
   "Aws s3": "/icons/amazon-s3.svg",
+  Springboot: "/icons/springboot.svg",
+  Java: "/icons/java.svg",
 };
 
 // Animation variants
@@ -135,6 +136,13 @@ export default function Portfolio() {
       tech: "React, MongoDB, Express.js",
     },
     {
+      title: "Marketplace backend",
+      url: "https://github.com/ycrangelo/MarketPlace-Backend.git",
+      description:
+        "A peer-to-peer (P2P) marketplace backend where users act as buyers or sellers and negotiate transactions directly",
+      tech: "Springboot, Java, MySQL",
+    },
+    {
       title: "Employee Information System",
       url: "https://playing-nine.vercel.app/",
       description: "Complete employee management system",
@@ -175,6 +183,8 @@ export default function Portfolio() {
     "PHP",
     "MySQL",
     "Aws s3",
+    "Springboot",
+    "Java"
   ];
 
   const education = [
@@ -363,8 +373,8 @@ export default function Portfolio() {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-2xl md:text-3xl text-pink-600 mb-8 font-medium"
           >
-            Computer Science Graduate | Software Developer | Passionate About
-            Web & Mobile Apps
+            Computer Science Graduate | Software Developer | Backend Developer |
+            Passionate About Web & Mobile Apps
           </motion.p>
 
           <motion.div
