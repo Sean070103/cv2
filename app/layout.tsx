@@ -2,10 +2,14 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'yocorangelo',
-  description: 'yocorangelo',
-  generator: 'yocorangelo',
-}
+  title: "yocorangelo",
+  description: "yocorangelo",
+  icons: {
+    icon: [
+      { url: "/miming.jpg" },
+    ],
+  },
+};
 
 export default function RootLayout({
   children,
