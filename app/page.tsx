@@ -214,7 +214,7 @@ export default function Portfolio() {
   const memberships = [
     "Association of Computer Science Students",
     "AWS Cloud Club – University of Cabuyao",
-    "Filipino Web Development Peers",
+    // "Filipino Web Development Peers",
   ];
 
   // Generate heart positions using seeded random
