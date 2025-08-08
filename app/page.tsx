@@ -725,7 +725,7 @@ export default function Portfolio() {
                 Memberships
                 <Users className="inline-block ml-3 text-pink-500" size={40} />
               </h2>
-              <div className="grid md:grid-cols-3 gap-6">
+              <div className="grid md:grid-cols-2 gap-6">
                 {memberships.map((membership, index) => (
                   <Card
                     key={index}
